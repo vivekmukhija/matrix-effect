@@ -4,6 +4,7 @@ const text = p.innerText
 const characters= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
 let iteration = 0
+let animating = true
 
 function randomText(){
     const str = text.split('').map((char, index)=>{
@@ -18,8 +19,13 @@ function randomText(){
     
     }
 
-setInterval(randomText,30
-)
+setInterval(randomText,30)
+
+
+
+
+
+
 
 const container = document.getElementById("matrix")
 
